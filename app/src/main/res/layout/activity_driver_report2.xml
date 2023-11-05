@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverReport2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".StdReport2">
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="143dp"
+            android:layout_height="49dp"
+            android:text="DELETE"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="811dp" />
+
+        <LinearLayout
+            android:layout_width="429dp"
+            android:layout_height="104dp"
+            android:background="#08466A"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="-11dp"
+            tools:layout_editor_absoluteY="-7dp">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="REPORT HISTORY"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="413dp"
+            android:layout_height="587dp"
+            android:background="#D9D9D9"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="96dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="143dp"
+            android:layout_height="49dp"
+            android:text="UPDATE"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="744dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

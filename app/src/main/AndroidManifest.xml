@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UMPBusBookingSystem"
+        tools:targetApi="31">
+        <activity
+            android:name=".DriverContact"
+            android:exported="false" />
+        <activity
+            android:name=".DriverReport3"
+            android:exported="false" />
+        <activity
+            android:name=".DriverReport2"
+            android:exported="false" />
+        <activity
+            android:name=".DriverReport1"
+            android:exported="false" />
+        <activity
+            android:name=".DriverSchedule2"
+            android:exported="false" />
+        <activity
+            android:name=".DriverSchedule1"
+            android:exported="false" />
+        <activity
+            android:name=".DriverHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminContact1"
+            android:exported="false" />
+        <activity
+            android:name=".AdminContact"
+            android:exported="false" />
+        <activity
+            android:name=".AdminReport4"
+            android:exported="false" />
+        <activity
+            android:name=".AdminReport3"
+            android:exported="false" />
+        <activity
+            android:name=".AdminReport2"
+            android:exported="false" />
+        <activity
+            android:name=".AdminReport1"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDeleteSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSchedule3"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSchedule2"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSchedule1"
+            android:exported="false" />
+        <activity
+            android:name=".AdminBooking2"
+            android:exported="false" />
+        <activity
+            android:name=".AdminBooking"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".StdContact"
+            android:exported="false" />
+        <activity
+            android:name=".StdReport3"
+            android:exported="false" />
+        <activity
+            android:name=".StdReport2"
+            android:exported="false" />
+        <activity
+            android:name=".StdReport1"
+            android:exported="false" />
+        <activity
+            android:name=".StdBooking3"
+            android:exported="false" />
+        <activity
+            android:name=".StdBooking2"
+            android:exported="false" />
+        <activity
+            android:name=".StdBooking1"
+            android:exported="false" />
+        <activity
+            android:name=".PopUpStatus1"
+            android:exported="false" />
+        <activity
+            android:name=".StdsSchedule2"
+            android:exported="false" />
+        <activity
+            android:name=".StdSchedule1"
+            android:exported="false" />
+        <activity
+            android:name=".StdHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword2"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

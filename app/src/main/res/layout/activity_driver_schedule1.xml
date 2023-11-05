@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverSchedule1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".StdSchedule1">
+
+        <LinearLayout
+            android:layout_width="426dp"
+            android:layout_height="71dp"
+            android:background="#08466A"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="-5dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="SCHEDULE"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="147dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:backgroundTint="#47BD34"
+            android:onClick="previousMonthAction"
+            android:text="MORNING"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <LinearLayout
+            android:layout_width="413dp"
+            android:layout_height="81dp"
+            android:background="#D9D9D9"
+            android:backgroundTint="#D9D9D9"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="68dp"></LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="273dp"><![CDATA[
+
+    "
+
+
+        />
+
+
+
+
+  ]]></com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="298dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="359dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="420dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="558dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="481dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="542dp"/>
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="133dp"
+            android:layout_height="51dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08466A"
+            android:onClick="previousMonthAction"
+            android:text="OKAY"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="652dp" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="147dp"
+            android:layout_height="46dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08466A"
+            android:onClick="previousMonthAction"
+            android:text="EVENING"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
