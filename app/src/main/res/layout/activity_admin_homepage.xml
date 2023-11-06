@@ -23,55 +23,21 @@
             android:textSize="20dp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="139dp"
-            tools:layout_editor_absoluteY="647dp" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            android:textColorHint="#FBFBFB"
-            app:counterTextColor="@color/white"
-            app:helperTextTextColor="@color/white"
-            app:hintTextColor="#FFFFFF"
-            app:placeholderTextColor="@color/white"
-            app:prefixTextColor="@color/white"
-            app:suffixTextColor="@color/white"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="211dp" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            android:textColorHint="#FEFAFD"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="316dp" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            android:textColorHint="#FFFFFF"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="431dp" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            android:textColorHint="#FFFFFF"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="532dp" />
+            tools:layout_editor_absoluteY="664dp" />
 
         <LinearLayout
-            android:layout_width="408dp"
-            android:layout_height="88dp"
+            android:layout_width="413dp"
+            android:layout_height="82dp"
             android:background="#08466A"
             android:orientation="vertical"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="1dp">
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-4dp">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="15dp"
                 android:gravity="center"
                 android:text="HOMEPAGE"
                 android:textColor="#FFFFFF"
@@ -81,19 +47,19 @@
 
         <LinearLayout
             android:layout_width="408dp"
-            android:layout_height="65dp"
+            android:layout_height="58dp"
             android:orientation="vertical"
             tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="90dp">
+            tools:layout_editor_absoluteY="80dp">
 
             <TextView
-                android:id="@+id/textView28"
+                android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="15dp"
-                android:gravity="center"
-                android:text="Hello _____"
-                android:textSize="20sp"
+                android:text="HELLO __"
+                android:textSize="16sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -101,7 +67,7 @@
             android:layout_width="409dp"
             android:layout_height="wrap_content"
             tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="211dp">
+            tools:layout_editor_absoluteY="185dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -112,98 +78,98 @@
                 android:layout_marginBottom="20dp"
                 android:background="#08466A"
                 android:gravity="center"
-                android:hint="PROFILE"
-                android:shadowColor="#FEFAFD"
-                android:textColor="#FEFAFD"
-                android:textColorHighlight="#FEFAFD"
-                android:textColorHint="#FEFAFD"
-                android:textColorLink="#FEFAFD"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="282dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="20dp"
-                android:background="#08466A"
-                android:gravity="center"
-                android:hint="BOOKING"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="360dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="20dp"
-                android:background="#08466A"
-                android:gravity="center"
-                android:hint="SCHEDULE"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="431dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="20dp"
-                android:background="#08466A"
-                android:gravity="center"
-                android:hint="REPORT"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="502dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginBottom="20dp"
-                android:background="#08466A"
-                android:gravity="center"
-                android:hint="CONTACT"
+                android:shadowColor="#FFFFFF"
+                android:text="PROFILE"
                 android:textColor="#FFFFFF"
                 android:textColorHighlight="#FFFFFF"
                 android:textColorHint="#FFFFFF"
                 android:textColorLink="#FFFFFF"
-                android:textSize="20sp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="278dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:background="#08466A"
+                android:gravity="center"
+                android:text="BOOKING"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="376dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:background="#08466A"
+                android:gravity="center"
+                android:text="SCHEDULE"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="474dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:background="#08466A"
+                android:gravity="center"
+                android:text="REPORT"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="567dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:background="#08466A"
+                android:gravity="center"
+                android:text="CONTACT"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
                 android:textStyle="bold" />
         </com.google.android.material.textfield.TextInputLayout>
 

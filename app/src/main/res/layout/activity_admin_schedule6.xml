@@ -4,34 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminSchedule3">
+    tools:context=".AdminSchedule6">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".AdminBooking"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="112dp">
-
-        <Button
-            android:id="@+id/button21"
-            android:layout_width="144dp"
-            android:layout_height="49dp"
-            android:layout_weight="1"
-            android:backgroundTint="#08466A"
-            android:onClick="previousMonthAction"
-            android:text="DELETE"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="133dp"
-            tools:layout_editor_absoluteY="619dp" />
+        tools:context=".AdminBooking">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="hint" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="144dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08466A"
+            android:onClick="previousMonthAction"
+            android:text="DRIVER"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="144dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:backgroundTint="#47BD34"
+            android:onClick="previousMonthAction"
+            android:text="STUDENT"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="42dp"
+            tools:layout_editor_absoluteY="103dp" />
 
         <LinearLayout
             android:layout_width="426dp"
@@ -61,30 +73,7 @@
             android:layout_width="409dp"
             android:layout_height="wrap_content"
             tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="227dp" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="459dp" />
-
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="ENTER THE SCHEDULE ID"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="66dp"
-            tools:layout_editor_absoluteY="92dp" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="162dp">
+            tools:layout_editor_absoluteY="227dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -92,9 +81,37 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:gravity="center"
-                android:hint="e.g. 1"
-                android:textStyle="bold" />
+                android:hint="Time" />
         </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="305dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:hint="Driver ID" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="144dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08466A"
+            android:onClick="previousMonthAction"
+            android:text="UPDATE"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="607dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

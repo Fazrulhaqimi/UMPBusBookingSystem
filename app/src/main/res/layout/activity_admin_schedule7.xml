@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminDeleteSchedule">
+    tools:context=".AdminSchedule7">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             android:textSize="20dp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="133dp"
-            tools:layout_editor_absoluteY="266dp" />
+            tools:layout_editor_absoluteY="619dp" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editText2"
@@ -74,10 +74,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="ENTER THE SCHEDULE ID"
+            android:text="ENTER THE DRIVER ID"
             android:textSize="24sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteX="85dp"
             tools:layout_editor_absoluteY="92dp" />
 
         <com.google.android.material.textfield.TextInputLayout
