@@ -87,9 +87,9 @@
         <activity
             android:name=".AdminReport1"
             android:exported="false" />
-        <activity
-            android:name=".AdminDeleteSchedule"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".AdminDeleteSchedule"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".AdminSchedule3"
             android:exported="false" />
@@ -147,9 +147,11 @@
         <activity
             android:name=".ForgotPassword1"
             android:exported="false" />
+        <!--This is Part of login-->
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.UMPBusBookingSystem.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
