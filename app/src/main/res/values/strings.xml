@@ -11,4 +11,11 @@
     <string name="phone_number">Phone Number</string>
     <string name="register">REGISTER</string>
     <string name="contact">CONTACT</string>
+    <string name="profile">PROFILE</string>
+    <string name="booking">BOOKING</string>
+    <string name="schedule">SCHEDULE</string>
+    <string name="report">REPORT</string>
+    <string name="back">BACK</string>
+    <string name="driver_id">Driver ID</string>
+    <string name="fullName">Full Name:</string>
 </resources>

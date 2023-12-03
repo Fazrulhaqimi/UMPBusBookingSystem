@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     EditText email,password;
 
     Button loginBtn, gotoRegister;
-    String[] type = {"Admin", "Student"};
+    String[] type = {"Admin", "Student", "Driver"};
     boolean valid = true;
 
     AutoCompleteTextView autoCompleteTextView;
@@ -112,6 +112,11 @@ public class MainActivity extends AppCompatActivity {
                 if (documentSnapshot.getString("isUser") != null ) {
 //                  user is Student
                     startActivity(new Intent(getApplicationContext(), StdHomepage.class));
+                    finish();
+                }
+
+                if (documentSnapshot.getString("isDriver") != null) {
+                    startActivity(new Intent(getApplicationContext(), DriverHomepage.class));
                     finish();
                 }
             }

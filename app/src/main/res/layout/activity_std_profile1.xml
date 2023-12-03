@@ -7,15 +7,20 @@
     tools:context=".StdProfile1">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="411dp"
-        android:layout_height="731dp"
-        tools:context=".StdRegister"
-        tools:layout_editor_absoluteY="0dp">
+        android:id="@+id/constraintLayout7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".StdRegister">
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="180dp"
-            android:layout_height="49dp"
+            android:id="@+id/BackBtn"
+            android:layout_width="181dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="3dp"
             android:layout_weight="1"
             android:backgroundTint="#08466A"
             android:gravity="center"
@@ -24,39 +29,51 @@
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="115dp"
-            tools:layout_editor_absoluteY="679dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/EditBtn" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="414dp"
-            android:layout_height="67dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="17dp"
             android:background="#08466A"
             android:gravity="center"
             android:text="PROFILE"
             android:textColor="#FFFFFF"
             android:textSize="34sp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="-2dp"
-            tools:layout_editor_absoluteY="-2dp" />
+            app:layout_constraintBottom_toTopOf="@+id/textView28"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
             android:gravity="center"
             android:text="YOUR PROFILE"
             android:textSize="18dp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="145dp"
-            tools:layout_editor_absoluteY="82dp" />
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout21"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <LinearLayout
-            android:layout_width="408dp"
-            android:layout_height="118dp"
+            android:id="@+id/linearLayout21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="1dp"
             android:orientation="horizontal"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="118dp">
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout22"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView28">
 
             <TextView
                 android:id="@+id/textView31"
@@ -76,6 +93,7 @@
                 android:layout_weight="1">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:focusable="false"
                     android:layout_width="285dp"
                     android:layout_height="57dp"
                     android:layout_marginLeft="15dp"
@@ -87,11 +105,17 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="407dp"
-            android:layout_height="101dp"
+            android:id="@+id/linearLayout22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
             android:orientation="horizontal"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="237dp">
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout23"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout21">
 
             <TextView
                 android:id="@+id/textView32"
@@ -111,6 +135,7 @@
                 android:layout_weight="1">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:focusable="false"
                     android:layout_width="281dp"
                     android:layout_height="51dp"
                     android:layout_marginLeft="10dp"
@@ -122,11 +147,17 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="407dp"
-            android:layout_height="93dp"
+            android:id="@+id/linearLayout23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
             android:orientation="horizontal"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="339dp">
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout22">
 
             <TextView
                 android:id="@+id/textView33"
@@ -144,6 +175,7 @@
                 android:layout_weight="1">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:focusable="false"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -154,11 +186,15 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="410dp"
-            android:layout_height="89dp"
+            android:id="@+id/linearLayout24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="1dp"
             android:orientation="horizontal"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="433dp">
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout23">
 
             <TextView
                 android:id="@+id/textView34"
@@ -176,6 +212,7 @@
                 android:layout_weight="1">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:focusable="false"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="15dp"
@@ -184,26 +221,35 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button6"
-            android:layout_width="180dp"
-            android:layout_height="49dp"
+            android:id="@+id/EditBtn"
+            android:layout_width="179dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="11dp"
             android:layout_weight="1"
             android:backgroundTint="#08466A"
             android:gravity="center"
             android:onClick="previousMonthAction"
-            android:text="UPDATE"
+            android:text="Edit"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteX="115dp"
-            tools:layout_editor_absoluteY="619dp" />
+            app:layout_constraintBottom_toTopOf="@+id/BackBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout25" />
 
         <LinearLayout
-            android:layout_width="409dp"
-            android:layout_height="95dp"
+            android:id="@+id/linearLayout25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
             android:orientation="horizontal"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="523dp">
+            app:layout_constraintBottom_toTopOf="@+id/EditBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout24">
 
             <TextView
                 android:id="@+id/textView35"
@@ -224,6 +270,7 @@
                 android:layout_weight="1">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:focusable="false"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="15dp"

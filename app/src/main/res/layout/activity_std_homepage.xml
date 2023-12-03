@@ -84,6 +84,8 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/student_profile"
+            android:focusable="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -93,7 +95,7 @@
             android:background="#08466A"
             android:gravity="center"
             android:shadowColor="#FFFFFF"
-            android:text="PROFILE"
+            android:text="@string/profile"
             android:textColor="#FFFFFF"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#FFFFFF"
@@ -116,6 +118,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout9">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/student_booking"
+            android:focusable="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -124,7 +128,7 @@
             android:layout_marginBottom="20dp"
             android:background="#08466A"
             android:gravity="center"
-            android:text="BOOKING"
+            android:text="@string/booking"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -143,6 +147,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout10">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/student_schedule"
+            android:focusable="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -151,7 +157,7 @@
             android:layout_marginBottom="20dp"
             android:background="#08466A"
             android:gravity="center"
-            android:text="SCHEDULE"
+            android:text="@string/schedule"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -170,6 +176,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout11">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/student_report"
+            android:focusable="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -178,7 +186,7 @@
             android:layout_marginBottom="20dp"
             android:background="#08466A"
             android:gravity="center"
-            android:text="REPORT"
+            android:text="@string/report"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -197,6 +205,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout12">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/student_contact"
+            android:focusable="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
