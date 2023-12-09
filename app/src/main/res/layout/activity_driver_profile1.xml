@@ -16,6 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".StdRegister">
 
+
         <Button
             android:id="@+id/backButton"
             android:layout_width="180dp"
@@ -229,7 +230,7 @@
             android:backgroundTint="#08466A"
             android:gravity="center"
             android:onClick="previousMonthAction"
-            android:text="UPDATE"
+            android:text="EDIT"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold"

@@ -1,110 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AdminReport3">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".AdminBooking"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="34dp">
-
-        <Button
-            android:id="@+id/button24"
-            android:layout_width="144dp"
-            android:layout_height="49dp"
-            android:layout_weight="1"
-            android:backgroundTint="#47BD34"
-            android:onClick="previousMonthAction"
-            android:text="STUDENT"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="54dp"
-            tools:layout_editor_absoluteY="103dp" />
-
-        <Button
-            android:id="@+id/button21"
-            android:layout_width="144dp"
-            android:layout_height="49dp"
-            android:layout_weight="1"
-            android:backgroundTint="#08466A"
-            android:onClick="previousMonthAction"
-            android:text="BACK"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="133dp"
-            tools:layout_editor_absoluteY="666dp" />
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editText2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="hint" />
-
-        <Button
-            android:id="@+id/button18"
-            android:layout_width="144dp"
-            android:layout_height="49dp"
-            android:layout_weight="1"
-            android:backgroundTint="#08466A"
-            android:onClick="previousMonthAction"
-            android:text="DRIVER"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="230dp"
-            tools:layout_editor_absoluteY="103dp" />
+        android:id="@+id/constraintLayout13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".AdminReport1">
 
         <LinearLayout
-            android:layout_width="426dp"
-            android:layout_height="71dp"
+            android:id="@+id/linearLayout57"
+            android:layout_width="393dp"
+            android:layout_height="0dp"
             android:background="#08466A"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="-5dp">
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout65"
+            android:layout_width="395dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="91dp"
+            android:background="#08466A"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout67"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView12"
-                android:layout_width="wrap_content"
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:text="REPORT"
                 android:textColor="#FFFFFF"
                 android:textSize="34sp"
                 android:textStyle="bold" />
-
-
         </LinearLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="227dp" />
+        <LinearLayout
+            android:id="@+id/linearLayout66"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="607dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout65">
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="459dp" />
+            <LinearLayout
+                android:layout_width="199dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#47BD34"
+                    android:text="STUDENT"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#08466A"
+                    android:text="DRIVER"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
-            android:layout_width="409dp"
-            android:layout_height="453dp"
+            android:id="@+id/linearLayout67"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="528dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout65">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Driver List Report"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout69"
+            android:layout_width="0dp"
+            android:layout_height="357dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:background="#A6A6A6"
             android:orientation="vertical"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="153dp"></LinearLayout>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout67"
+            app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout70"
+            android:layout_width="0dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout69"
+            app:layout_constraintVertical_bias="0.352">
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
+                android:backgroundTint="#08466A"
+                android:text="BACK"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

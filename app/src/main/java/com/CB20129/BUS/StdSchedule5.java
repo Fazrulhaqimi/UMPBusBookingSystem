@@ -7,23 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class StdBooking2 extends AppCompatActivity {
+public class StdSchedule5 extends AppCompatActivity {
 
-    Button submitBtn;
+    Button BookSlot;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_std_booking2);
+        setContentView(R.layout.activity_std_schedule5);
 
-        //Submit Button
-        submitBtn = findViewById(R.id.button111);
-        submitBtn.setOnClickListener(new View.OnClickListener() {
+        BookSlot = findViewById(R.id.button31);
+        BookSlot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                finish();
+                startActivity(new Intent(getApplicationContext(), StdSchedule3.class));
+                //finish();
             }
         });
+
     }
 }

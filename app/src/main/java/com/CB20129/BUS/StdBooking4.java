@@ -7,17 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class StdBooking1 extends AppCompatActivity {
+public class StdBooking4 extends AppCompatActivity {
 
     private Button dhuamBtn, umpsaBtn, backBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_std_booking1);
+        setContentView(R.layout.activity_std_booking4);
 
         //UMPSA Button
-        umpsaBtn = findViewById(R.id.button11);
+        umpsaBtn = findViewById(R.id.button140);
         umpsaBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -27,7 +27,7 @@ public class StdBooking1 extends AppCompatActivity {
         });
 
         //DHUAM Button
-        dhuamBtn = findViewById(R.id.button10);
+        dhuamBtn = findViewById(R.id.button130);
         dhuamBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

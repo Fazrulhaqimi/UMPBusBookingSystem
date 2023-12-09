@@ -4,146 +4,186 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="clip_horizontal|center"
     tools:context=".StdBooking1">
 
-    <LinearLayout
-        android:layout_width="430dp"
-        android:layout_height="97dp"
-        android:background="#08466A"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="-11dp"
-        tools:layout_editor_absoluteY="-5dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".StdBooking4">
 
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:gravity="center"
-            android:text="MY BOOKING"
-            android:textColor="#FFFFFF"
-            android:textSize="34sp"
-            android:textStyle="bold" />
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout33"
+            android:layout_width="407dp"
+            android:layout_height="692dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout32"
+            app:layout_constraintVertical_bias="0.0">
 
-    <LinearLayout
-        android:layout_width="418dp"
-        android:layout_height="89dp"
-        android:background="#D9D9D9"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="93dp"></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:background="#A6A6A6"
+                android:orientation="vertical">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="280dp">
+            </LinearLayout>
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:orientation="horizontal">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="244dp">
+                <LinearLayout
+                    android:layout_width="208dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="#D9D9D9"
-            android:gravity="center"
-            android:hint="7.15a.m.   Arrival: UMPSA"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </com.google.android.material.textfield.TextInputLayout>
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="147dp"
+                        android:layout_height="59dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#47BD34"
+                        android:onClick="previousMonthAction"
+                        android:text="DHUAM"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="47dp"
+                        tools:layout_editor_absoluteY="173dp" />
+                </LinearLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="305dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="#D9D9D9"
-            android:gravity="center"
-            android:hint="9.15a.m.   Arrival: UMPSA"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </com.google.android.material.textfield.TextInputLayout>
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="187dp"
+                        android:layout_height="61dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#08466A"
+                        android:onClick="previousMonthAction"
+                        android:text="UMPSA"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        tools:layout_editor_absoluteX="47dp"
+                        tools:layout_editor_absoluteY="173dp" />
+                </LinearLayout>
+            </LinearLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="372dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="#D9D9D9"
-            android:gravity="center"
-            android:hint="11.15a.m.   Arrival: UMPSA"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </com.google.android.material.textfield.TextInputLayout>
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:backgroundTint="#A6A6A6"
+                    android:text="7.15a.m.    Departure: DHUAM"
+                    android:textColor="#00000B"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="441dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:orientation="vertical">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="#D9D9D9"
-            android:gravity="center"
-            android:hint="1.15p.m.   Arrival: UMPSA"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </com.google.android.material.textfield.TextInputLayout>
+                <Button
+                    android:id="@+id/butto30"
+                    android:layout_width="match_parent"
+                    android:layout_height="61dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:backgroundTint="#A6A6A6"
+                    android:text="9.15a.m.    Departure: DHUAM"
+                    android:textColor="#00000B"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="510dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:orientation="vertical"></LinearLayout>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="373dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="20dp"
-            android:background="#D9D9D9"
-            android:gravity="center"
-            android:hint="3.15p.m.   Arrival: UMPSA"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-    </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical"></LinearLayout>
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="607dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:orientation="vertical" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button33"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginRight="120dp"
+                    android:backgroundTint="#08466A"
+                    android:text="BACK" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout32"
+            android:layout_width="419dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="1dp"
+            android:background="#08466A"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="BOOKING"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

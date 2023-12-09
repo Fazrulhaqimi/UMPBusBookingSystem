@@ -6,101 +6,145 @@
     android:layout_height="match_parent"
     tools:context=".StdContact">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#D9D9D9"
-        tools:context=".StdReport1">
+    <LinearLayout
+        android:id="@+id/linearLayout34"
+        android:layout_width="411dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#08466A"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="CONTACT"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#A6A6A6"
+        android:backgroundTint="#A6A6A6"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout34">
 
         <LinearLayout
-            android:layout_width="424dp"
-            android:layout_height="83dp"
-            android:background="#08466A"
-            android:orientation="vertical"
-            tools:layout_editor_absoluteX="-5dp"
-            tools:layout_editor_absoluteY="0dp">
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:gravity="center"
-                android:text="CONTACT"
-                android:textColor="#FFFFFF"
-                android:textSize="34sp" />
+                android:text="B.U.S"
+                android:textColor="#08466A"
+                android:textSize="48sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="B.U.S"
-            android:textColor="#08466A"
-            android:textSize="48sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="145dp"
-            tools:layout_editor_absoluteY="129dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="291dp"
-            android:layout_height="256dp"
-            app:srcCompat="@drawable/bus"
-            tools:layout_editor_absoluteX="60dp"
-            tools:layout_editor_absoluteY="162dp" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="393dp"
+                android:layout_height="208dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/bus" />
+        </LinearLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="418dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="CONTACT SERVICES"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="47dp"
-            tools:layout_editor_absoluteY="433dp" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="522dp">
-
-            <com.google.android.material.textfield.TextInputEditText
+            <TextView
+                android:id="@+id/textView29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:gravity="center"
-                android:hint="09-421 5022"
-                android:textSize="20sp"
+                android:text="CONTACT SERVICE"
+                android:textColor="#000000"
+                android:textSize="34sp"
                 android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="596dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:orientation="vertical">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="#3D5AFE"
+                android:text="09-431 5044"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="#3D5AFE"
+                android:text="ppph@ump.edu.my"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:gravity="center"
-                android:hint="PPPH@UMPSA.COM.MY"
-                android:textSize="20sp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="120dp"
+                android:backgroundTint="#08466A"
+                android:text="BACK"
+                android:textSize="18sp"
                 android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

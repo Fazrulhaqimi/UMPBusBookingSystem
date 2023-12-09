@@ -7,117 +7,188 @@
     tools:context=".AdminSchedule5">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".AdminBooking"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="34dp">
-
-        <Button
-            android:id="@+id/button21"
-            android:layout_width="144dp"
-            android:layout_height="49dp"
-            android:layout_weight="1"
-            android:backgroundTint="#08466A"
-            android:onClick="previousMonthAction"
-            android:text="DELETE"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="133dp"
-            tools:layout_editor_absoluteY="666dp" />
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editText2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="hint" />
-
-        <Button
-            android:id="@+id/button18"
-            android:layout_width="144dp"
-            android:layout_height="49dp"
-            android:layout_weight="1"
-            android:backgroundTint="#47BD34"
-            android:onClick="previousMonthAction"
-            android:text="DRIVER"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="230dp"
-            tools:layout_editor_absoluteY="103dp" />
-
-        <Button
-            android:id="@+id/button19"
-            android:layout_width="144dp"
-            android:layout_height="49dp"
-            android:layout_weight="1"
-            android:backgroundTint="#08466A"
-            android:onClick="previousMonthAction"
-            android:text="STUDENT"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="42dp"
-            tools:layout_editor_absoluteY="103dp" />
+        android:id="@+id/constraintLayout18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".AdminSchedule1">
 
         <LinearLayout
-            android:layout_width="426dp"
-            android:layout_height="71dp"
+            android:id="@+id/linearLayout4"
+            android:layout_width="397dp"
+            android:layout_height="89dp"
             android:background="#08466A"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="-5dp">
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView12"
-                android:layout_width="wrap_content"
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_weight="1"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:text="SCHEDULE"
                 android:textColor="#FFFFFF"
                 android:textSize="34sp"
                 android:textStyle="bold" />
-
-
         </LinearLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="227dp" />
+        <LinearLayout
+            android:id="@+id/linearLayout59"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="459dp" />
+            <LinearLayout
+                android:layout_width="199dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button22"
-            android:layout_width="144dp"
-            android:layout_height="49dp"
-            android:layout_weight="1"
-            android:backgroundTint="#08466A"
-            android:onClick="previousMonthAction"
-            android:text="UPDATE"
-            android:textColor="@color/white"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="133dp"
-            tools:layout_editor_absoluteY="607dp" />
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#47BD34"
+                    android:text="STUDENT"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#08466A"
+                    android:text="DRIVER"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
-            android:layout_width="409dp"
-            android:layout_height="453dp"
-            android:background="#A6A6A6"
+            android:id="@+id/linearLayout60"
+            android:layout_width="390dp"
+            android:layout_height="70dp"
             android:orientation="vertical"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="153dp"></LinearLayout>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout59"
+            app:layout_constraintVertical_bias="0.059">
 
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout63"
+            android:layout_width="393dp"
+            android:layout_height="68dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout60"
+            app:layout_constraintVertical_bias="0.021">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout68"
+            android:layout_width="393dp"
+            android:layout_height="73dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout63"
+            app:layout_constraintVertical_bias="0.043" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout71"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout68"
+            app:layout_constraintVertical_bias="0.051" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout72"
+            android:layout_width="392dp"
+            android:layout_height="66dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout71"
+            app:layout_constraintVertical_bias="0.341">
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
+                android:backgroundTint="#08466A"
+                android:text="UPDATE"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout73"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout72"
+            app:layout_constraintVertical_bias="0.0">
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="120dp"
+                android:backgroundTint="#08466A"
+                android:text="DELETE"
+                android:textSize="20sp" />
+        </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

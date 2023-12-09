@@ -13,6 +13,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     EditText email,password;
+
+    TextView forgotpassword;
 
     Button loginBtn, gotoRegister;
     String[] type = {"Admin", "Student", "Driver"};
@@ -66,6 +69,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, StdRegister.class);
+                startActivity(intent);
+            }
+        });
+
+        //Forgot Password link
+        TextView forgetPasswordTextView = findViewById(R.id.forget_hyperlink);
+
+        // Set an OnClickListener for the forget password TextView
+        forgetPasswordTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Handle the click event, navigate to ForgotPasswordActivity
+                Intent intent = new Intent(MainActivity.this, ForgotPassword1.class);
                 startActivity(intent);
             }
         });

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DriverSchedule2">
+    tools:context=".StdSchedule4">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout9"
@@ -54,9 +54,9 @@
             android:layout_weight="1"
             android:backgroundTint="#08466A"
             android:onClick="previousMonthAction"
-            android:text="MORNING"
+            android:text="DHUAM"
             android:textColor="@color/white"
-            android:textSize="18dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/button30"
             app:layout_constraintEnd_toStartOf="@+id/button30"
@@ -72,9 +72,9 @@
             android:layout_weight="1"
             android:backgroundTint="#47BD34"
             android:onClick="previousMonthAction"
-            android:text="EVENING"
+            android:text="UMPSA"
             android:textColor="@color/white"
-            android:textSize="18dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/textInputLayout25"
             app:layout_constraintEnd_toEndOf="parent"
@@ -130,13 +130,13 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/Schedule_6"
+                android:focusable="false"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:background="#D9D9D9"
-                android:focusable="false"
                 android:gravity="center"
                 android:hint="14.00p.m.        Departure: UMPSA"
                 android:textColor="#000000"
@@ -156,13 +156,13 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/Schedule_7"
+                android:focusable="false"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:background="#D9D9D9"
-                android:focusable="false"
                 android:gravity="center"
                 android:hint="16.30p.m.        Departure: UMPSA"
                 android:textColor="#000000"
@@ -182,12 +182,12 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/Schedule_8"
+                android:focusable="false"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:background="#D9D9D9"
-                android:focusable="false"
                 android:gravity="center"
                 android:hint="18.30p.m.        Departure: UMPSA"
                 android:textStyle="bold" />

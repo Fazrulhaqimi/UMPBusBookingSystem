@@ -13,20 +13,50 @@ import com.google.firebase.auth.FirebaseAuth;
 public class DriverHomepage extends AppCompatActivity {
 
     Button logoutBtn;
-    EditText profileBtn;
+    EditText profileBtn, ScheduleBtn, ReportBtn, ContactBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_homepage);
 
-//        Profile Button
+//      Profile Button
         profileBtn = findViewById(R.id.driverProfile);
         profileBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), DriverProfile1.class));
                 finish();
+            }
+        });
+
+        //Schedule Button
+        ScheduleBtn = findViewById(R.id.driverSchedule);
+        ScheduleBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), DriverSchedule1.class));
+//                finish();
+            }
+        });
+
+        //Report Button
+        ReportBtn = findViewById(R.id.driverReport);
+        ReportBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), DriverReport1.class));
+//                finish();
+            }
+        });
+
+        //Contact Button
+        ContactBtn = findViewById(R.id.driverContact);
+        ContactBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), DriverContact.class));
+//                finish();
             }
         });
 

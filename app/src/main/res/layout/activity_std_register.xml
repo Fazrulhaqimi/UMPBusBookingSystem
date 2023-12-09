@@ -74,7 +74,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/full_name"
+            android:hint="@string/full_name"
             android:textColor="#A6A6A6"
             android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -99,7 +99,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/matric_id"
+            android:hint="@string/matric_id"
             android:textColor="#A6A6A6"
             android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -124,7 +124,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/email_address"
+            android:hint="@string/email_address"
             android:textColor="#A6A6A6"
             android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -149,7 +149,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/password"
+            android:hint="password"
             android:textColor="#A6A6A6"
             android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -174,7 +174,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="25dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/phone_number"
+            android:hint="@string/phone_number"
             android:textColor="#A6A6A6"
             android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
